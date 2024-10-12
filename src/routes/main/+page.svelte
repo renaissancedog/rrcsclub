@@ -1,6 +1,5 @@
 <script>
   // import Navbar from "../components/navbar";
-  
   const apply_link = "https://forms.gle/i3ncV7JumfaodDXK8";
   const contact_link = "https://forms.gle/QkcoFtm9A6woxrs28";
   const constitution_link = "https://github.com/RR-CS-Club/Club-Constitution";
@@ -14,32 +13,32 @@
 <link rel='preconnect' href='https://fonts.gstatic.com' />
 <div class="bg-white flex flex-col justify-center items-center w-screen">
   <!-- <Navbar /> -->
-  <section class="flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
-    <h1 class="text-7xl h-32 pb-4 relative m-0 text-blue-800 uppercase text-center flex flex-col top-0 justify-center"> Reagan CS Club </h1>
+  <section class="h-[30rem] bg-cover bg-[url('TopBg.svg')] flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
+    <h1 class="text-7xl h-32 pb-16 relative m-0 text-blue-800 uppercase text-center flex flex-col top-0 justify-center"> Reagan CS Club </h1>
     <div class="text-4xl text-center leading-normal text-gray-800">
       The club for <span class="rounded-lg text-pink-700 bg-pink-200 font-bold">creative coding,</span>
-        <span class="rounded-lg text-orange-500 bg-yellow-200 font-bold">collaboration
-        </span>
-        and
-        <span class="rounded-lg text-blue-600 bg-green-200 font-bold">
-          project-led learning
-        </span>
-        .
-      </div>
-      <div class="w-60 text-xl flex flex-row items-center justify-center">
-        <div
-        class="my-8 mx-12 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
-        <h1 class='ApplyText'>Apply</h1>
-      </div>
-      <div
-      class="mx-12 my-8 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
-      <h1 class='ContactText'>Contact</h1>
+      <span class="rounded-lg text-orange-500 bg-yellow-200 font-bold">collaboration
+      </span>
+      and
+      <span class="rounded-lg text-blue-600 bg-green-200 font-bold">
+        project-led learning
+      </span>
+      .
     </div>
-  </div>
+    <div class="text-xl flex flex-row items-center justify-center">
+      <div
+      class="flex justify-center items-center bg-[url('ButtonBg.svg')] h-28 w-60 my-8 mx-12 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
+      <h1 class="text-3xl text-center ApplyText">Apply</h1>
+    </div>
+      <div
+      class="flex justify-center items-center bg-[url('ButtonBg.svg')] h-28 w-60 my-8 mx-12 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
+      <h1 class="text-3xl text-center ContactText">Contact</h1>
+    </div>
+</div>
 </section>
 <main class="bg-teal-900 w-screen flex flex-col justify-center items-center">
   <section class="drop-shadow-2xl flex flex-col items-center justify-center">
-    <h1 class="text-4xl text-teal-300 uppercase font-black bg-blue-700">Who We Are</h1>
+    <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Who We Are</h1>
     <p class="m-12 w-fit text-2xl text-white font-light">
       We are a passionate community of coders, designers and explorers
       who like to learn by doing. The core philosophy of this club is
@@ -54,7 +53,7 @@
       everyone so that no one is left behind in this revolution.
     </p>
   </section>
-  <h1 class="text-4xl text-teal-300 uppercase font-black bg-blue-700">What we do</h1>
+  <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">What we do</h1>
   
   <!-- <section class={styles.section}>
     <h1 class={styles.sectionSubtitle}>Club Workshop Meetings</h1>
@@ -118,9 +117,9 @@
       <li>programming Competitions</li>
     </ul>
     For more information on upcoming events, check out the<span class={styles.link} onClick={() => window.open("events", "_self")}>
-    EVENTS
-  </span>
- page.
+      EVENTS
+    </span>
+    page.
   </p>
 </section>
 <section class={styles.section}>
