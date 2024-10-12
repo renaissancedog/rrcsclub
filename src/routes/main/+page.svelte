@@ -10,7 +10,7 @@
 <!-- <script defer data-domain="rrcsclub.vercel.app" src="https://plausible.io/js/plausible.js"></script> -->
 <title>Ronald Reagan High School Computer Science Club</title>
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain pratical experience in Computer Science and serve the community while having tons of fun!'/>
-<link rel='icon' href='/favicon.ico' />
+<!-- <link rel='icon' href='/favicon.ico' /> -->
 <link rel='preconnect' href='https://fonts.gstatic.com' />
 <div class="bg-white flex flex-col justify-center items-center w-screen">
   <!-- <Navbar /> -->
