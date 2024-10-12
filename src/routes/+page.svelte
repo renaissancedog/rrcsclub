@@ -1,6 +1,6 @@
-<script>
-  // import { base } from '$app/paths';
-  // import Navbar from "../components/navbar";
+<script lang="ts">
+  import { base } from '$app/paths';
+  import Navbar from "../lib/components/Navbar.svelte";
   const apply_link = "https://forms.gle/i3ncV7JumfaodDXK8";
   const contact_link = "https://forms.gle/QkcoFtm9A6woxrs28";
   const constitution_link = "https://github.com/RR-CS-Club/Club-Constitution";
@@ -12,8 +12,8 @@
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain pratical experience in Computer Science and serve the community while having tons of fun!'/>
 <link rel='preconnect' href='https://fonts.gstatic.com' />
 <div class="bg-white flex flex-col justify-center items-center w-screen">
-  <!-- <Navbar /> -->
-  <section class="h-[50rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
+  <Navbar {base}/>
+  <section class="h-[70rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
     <h1 class="text-7xl h-32 pb-16 relative m-0 text-blue-800 uppercase text-center flex flex-col top-0 justify-center"> Reagan CS Club </h1>
     <div class="text-4xl text-center leading-normal text-gray-800">
       The club for <span class="rounded-lg text-pink-700 bg-pink-200 font-bold">creative coding,</span>
