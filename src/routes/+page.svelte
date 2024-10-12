@@ -13,7 +13,7 @@
 <link rel='preconnect' href='https://fonts.gstatic.com' />
 <div class="bg-white flex flex-col justify-center items-center w-screen">
   <!-- <Navbar /> -->
-  <section class="h-[30rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
+  <section class="h-[50rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col items-center justify-center w-screen bg-gray-200 bg-no-repeat z-0">
     <h1 class="text-7xl h-32 pb-16 relative m-0 text-blue-800 uppercase text-center flex flex-col top-0 justify-center"> Reagan CS Club </h1>
     <div class="text-4xl text-center leading-normal text-gray-800">
       The club for <span class="rounded-lg text-pink-700 bg-pink-200 font-bold">creative coding,</span>
