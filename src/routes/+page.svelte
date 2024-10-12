@@ -8,7 +8,7 @@
 
 <html lang="en">
 <!-- <script defer data-domain="rrcsclub.vercel.app" src="https://plausible.io/js/plausible.js"></script> -->
-<title>Ronald Reagan High School Computer Science Club</title>
+<title>Reagan HS Computer Science Club</title>
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain pratical experience in Computer Science and serve the community while having tons of fun!'/>
 <link rel='preconnect' href='https://fonts.gstatic.com' />
 <div class="bg-white flex flex-col justify-center items-center w-screen">
@@ -26,10 +26,10 @@
       .
       <div class="text-xl flex flex-col sm:flex-row items-center justify-center">
         <div class="flex justify-center items-center h-28 w-full sm:w-60 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
-          <h1 class="text-3xl text-center ApplyText">Apply</h1>
+          <a href={apply_link} class="text-3xl text-center ApplyText">Apply</a>
         </div>
         <div class="flex justify-center items-center h-28 w-full sm:w-60 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer uppercase text-white text-center bg-gray-800 bg-contain bg-no-repeat">
-          <h1 class="text-3xl text-center ContactText">Contact</h1>
+          <a href={contact_link} class="text-3xl text-center ContactText">Contact</a>
         </div>
       </div>
     </section>
@@ -52,53 +52,46 @@
       </section>
       <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">What we do</h1>
       
-      <!-- <section class={styles.section}>
-        <h1 class={styles.sectionSubtitle}>Club Workshop Meetings</h1>
-        <section id={styles.cardSection}>
-          <div class={styles.card}>
-            <h2 class='Initiation'>Initiation</h2>
-            <p class='InitiationText'>
+      <section class="items-center justify-center w-screen">
+        <h1 class="text-white text-3xl text-center pb-8">Club Workshop Meetings</h1>
+        <section class="flex flex-col md:flex-row items-center justify-around w-full">
+          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+            <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Initiation</h2>
+            <p class='m-4 text-2xl'>
               The Club leader guides everyone through a new topic. Everyone
               writes some code and understands the basics of the topic.
             </p>
           </div>
-          <div class={styles.card}>
-            <h2 class='Creation'>Creation</h2>
-            <p class='CreationText'>
-              Everyone starts <br />
-              creating, in teams or on <br />
+          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+            <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Creation</h2>
+            <p class='m-4 text-2xl'>
+              Everyone starts
+              creating, in teams or on 
               their own on a project
-              <br /> of their choice. The club <br />
-              officers guide everyone <br />
+              of their choice. The club
+              officers guide everyone
               through projects.
             </p>
           </div>
-          <div class={styles.card}>
-            <h2>Demos</h2>
-            <p class='DemoText'>
+          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+            <h2 class="my-4 h-12 text-center text-3xl text-white bg-teal-700">Demos</h2>
+            <p class='m-4 text-2xl'>
               Anyone who wishes to
-              <br /> can present what they
-              <br /> built and inspire others <br />
-              to build similar fun <br />
+              can present what they
+              built and inspire others
+              to build similar fun
               projects.
             </p>
           </div>
         </section>
-        <p class={styles.bodyText} id={styles.centerText}>
+        <p class="text-2xl pt-8 text-white font-light text-center">
           Beginners are highly encouraged to attend these workshops to learn
           programming and new skills.
           <br />
-          Check out the current uploaded{" "}
-          <span
-          class={styles.link}
-          onClick={() => window.open("workshops", "_self")}>
-          WORKSHOPS
-        </span>{" "}
-        .
       </p>
     </section>
-    <div id={styles.greenDivider}></div>
-    <section class={styles.section}>
+    <div class="bg-teal-300 w-screen"></div>
+    <!-- <section class={styles.section}>
       <h1 class={styles.sectionSubtitle} id={styles.beyondSubtitle}>
         Beyond Meetings
       </h1>
