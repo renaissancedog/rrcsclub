@@ -1,0 +1,11 @@
+<script lang="ts">
+  import { base } from '$app/paths';
+  import Navbar from "../lib/components/Navbar.svelte";
+</script>
+<html lang="en">
+<body class="text-white text-center bg-teal-900">
+  <Navbar {base}/>
+  <h1 class="text-7xl m-8">Oh no! The page you are looking for does not exist.</h1>
+  <p class="text-3xl">Return to <a class="underline" href="{base}">the homepage.</a></p>
+</body>
+</html>
