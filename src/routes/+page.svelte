@@ -86,7 +86,7 @@
             <li>TED Talks</li>
             <li>Programming Competitions</li>
           </ul>
-          <p class="py-4">For more information on upcoming events, check out the <a class="underline" href="{base}/events">EVENTS</a> page.</p>
+          <p class="py-4">For more information on upcoming events, check out the <a class="underline" href="{base}/events">events</a> page.</p>
         </div>
       </section>
       <section class="drop-shadow-2xl flex flex-col items-center justify-center">
