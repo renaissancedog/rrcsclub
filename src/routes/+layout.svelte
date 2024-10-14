@@ -1,1 +1,2 @@
 <script>import "../app.css";</script><slot></slot>
+<footer class="bg-teal-900 text-center text-white">Contribute to this website at <a class="underline" target="_blank" rel="noopener noreferrer"  href="https://github.com/renaissancedog/rrcsclub">its GitHub.</a></footer>
