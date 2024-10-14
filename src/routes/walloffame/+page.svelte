@@ -6,6 +6,7 @@
 
 <title>Reagan HS Computer Science Club</title>
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain practical experience in Computer Science while having tons of fun!'/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="bg-teal-900 flex flex-col justify-center items-center w-screen">
   <Navbar {base}/>
   <h1 class='my-4 text-center text-7xl text-white'>Wall of Fame</h1>
