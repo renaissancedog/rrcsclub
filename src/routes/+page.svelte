@@ -20,8 +20,8 @@
       </span>
       and
       <span class="rounded-lg text-blue-600 bg-green-200 font-bold">
-        project-led learning
-      </span>.
+        project-led learning.
+      </span>
       <div class="text-xl flex flex-col sm:flex-row items-center justify-center">
         <div class="flex justify-center items-center h-28 w-full sm:w-60 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer text-white text-center bg-gray-800 bg-contain bg-no-repeat">
           <a href={apply_link} class="text-3xl text-center">APPLY</a>
@@ -50,20 +50,20 @@
       <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">What we do</h1>
       <section class="px-4 items-center justify-center w-screen">
         <h1 class="text-white text-3xl text-center pb-8">Club Workshop Meetings</h1>
-        <section class="flex flex-col md:flex-row items-center justify-around w-full">
-          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+        <section class="flex flex-col lg:flex-row items-center justify-around w-full">
+          <div class="bg-white mt-2 rounded-xl lg:w-1/6">
             <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Initiation</h2>
             <p class='m-4 text-3xl'>
               The Club leader guides everyone through a new topic. Everyone writes some code and understands the basics of the topic.
             </p>
           </div>
-          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+          <div class="bg-white mt-2 rounded-xl lg:w-1/6">
             <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Creation</h2>
             <p class='m-4 text-3xl'>
               Everyone starts creating, in teams or on their own on a project of their choice. The club officers guide everyone through projects.
             </p>
           </div>
-          <div class="bg-white mt-2 rounded-xl w-full md:w-1/6">
+          <div class="bg-white mt-2 rounded-xl lg:w-1/6">
             <h2 class="my-4 h-12 text-center text-3xl text-white bg-teal-700">Demos</h2>
             <p class='m-4 text-3xl'>
               Anyone who wishes to can present what they built and inspire others to build similar fun projects.
@@ -75,7 +75,7 @@
         </p>
       </section>
       <section class="drop-shadow-2xl flex flex-col items-center justify-center">
-        <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Beyond Meetings</h1>
+        <h1 class="text-center rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Beyond Meetings</h1>
         <div class="mx-12 text-left w-fit text-3xl text-white font-light">
           <p> Our club goes beyond simple meetings and we host a ton of fun events. Some events we are planning for this year include:</p>
           <ul class="list-disc">
