@@ -11,7 +11,7 @@
 <div class="bg-teal-900 flex flex-col justify-center items-center w-full">
   <Navbar {base} />
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Our Team</h1>
-  <p class="text-xl text-white">Meet the folks responsible for running the club!</p>
+  <p class="text-xl text-white text-center">Meet the folks responsible for running the club!</p>
   <div class="flex flex-wrap justify-center w-full px-4">
     <OfficerCard name="Alexis Tao" role="President" desc="Lorem ipsum dolor sit amet" img=""/>
     <OfficerCard name="William Liu" role="Webmaster" desc="Hi! I made this website." img="william.png"/>
