@@ -10,7 +10,7 @@
 <div class="bg-teal-900 flex flex-col justify-center items-center w-full">
   <Navbar {base} />
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Workshops</h1>
-  <p class="text-xl text-white">Find resources from previous workshops here.</p>
+  <p class="text-center text-xl text-white">Find resources from previous workshops here.</p>
   <p class="text-xl text-white">Under Construction</p>
 </div>
 <div class="h-[50vh] lg:h-[90vh] bg-teal-900"></div>
