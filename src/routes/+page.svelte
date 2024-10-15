@@ -91,8 +91,8 @@
       <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Requirements</h1>
       <p class="m-12 w-fit text-3xl text-white font-light">
         In order to be eligible to join Reagan CS Club, you must be a
-        student of Ronald Reagan High School in San Antonio, Texas and be
-        in good standing with NEISD policies and government laws. Those
+        student of Reagan High School in San Antonio, Texas, be
+        in good standing with NEISD policies and government laws, and pay a $20 membership fee. Those
         are the only requirements for joining as a new member.<br><br>
         In order to maintain or renew membership, there is one
         additional requirement other than the ones mentioned above. You

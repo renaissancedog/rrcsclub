@@ -1,7 +1,7 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import Navbar from "../../lib/components/Navbar.svelte";
-  import Card from "../../lib/components/Card.svelte";
+  import FameCard from "../../lib/components/FameCard.svelte";
 </script>
 
 <title>Reagan HS Computer Science Club</title>
@@ -12,13 +12,13 @@
   <Navbar {base} />
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Wall of Fame</h1>
   <div class="flex flex-wrap justify-center w-full px-4">
-    <Card 
+    <FameCard 
       authorName="William Liu" 
       projName="Reagan CS Club Website" 
       desc="The website of the Reagan High School Computer Science Club!" 
       link="https://renaissancedog.github.io/rrcsclub/" 
     />
-    <Card 
+    <FameCard 
       authorName="Sarthak Dayal" 
       projName="Former Reagan CS Club Website" 
       desc="The former website of the Club." 
