@@ -7,7 +7,7 @@
     <h2 class='px-4 py-2 text-2xl lg:text-3xl text-white bg-teal-700 rounded-t-xl'>{projName}</h2>
     <h2 class='px-4 py-2 text-xl lg:text-2xl text-white bg-teal-700'>{authorName}</h2>
     <p class='m-4 text-lg lg:text-2xl'>{desc} <br> 
-      <a class="underline text-blue-600" target="_blank" rel="noopener noreferrer" href={link}>{link}</a>
+      <a class="break-words underline text-blue-600" target="_blank" rel="noopener noreferrer" href={link}>{link}</a>
     </p>
   </div>
 </section>
