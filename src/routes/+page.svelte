@@ -11,7 +11,7 @@
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain practical experience in Computer Science while having tons of fun!'/>
   <Navbar {base}/>
   <section class="bg-white h-[70rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col text-center items-center justify-center w-screen bg-no-repeat">
-    <h1 class="text-7xl h-32 pb-16 text-blue-800 uppercase top-0 justify-center"> Reagan CS Club </h1>
+    <h1 class="text-7xl h-32 mb-16 text-blue-800 uppercase top-0 justify-center"> Reagan CS Club </h1>
     <div class="text-4xl leading-normal text-gray-800">
       The club for <span class="rounded-lg text-pink-700 bg-pink-200 font-bold">creative coding,</span>
       <span class="rounded-lg text-orange-500 bg-yellow-200 font-bold">collaboration
@@ -21,10 +21,10 @@
         project-led learning.
       </span>
       <div class="text-xl flex flex-col sm:flex-row items-center justify-center">
-        <div class="flex justify-center items-center h-28 w-full sm:w-60 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer text-white text-center bg-gray-800 bg-contain bg-no-repeat">
+        <div class="flex justify-center items-center h-28 w-1/2 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer text-white text-center bg-gray-800 bg-contain bg-no-repeat">
           <a href={apply_link} class="text-3xl text-center">APPLY</a>
         </div>
-        <div class="flex justify-center items-center h-28 w-full sm:w-60 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer text-white text-center bg-gray-800 bg-contain bg-no-repeat">
+        <div class="flex justify-center items-center h-28 w-1/2 my-4 sm:my-8 mx-4 sm:mx-12 rounded-lg cursor-pointer text-white text-center bg-gray-800 bg-contain bg-no-repeat">
           <a href={contact_link} class="text-3xl text-center">CONTACT</a>
         </div>
       </div>
