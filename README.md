@@ -5,7 +5,7 @@ Inspired by [the old website](https://github.com/RR-CS-Club/RR-CS-Club.github.io
 ![MIT License](https://img.shields.io/cocoapods/l/AFNetworking?color=blue&style=for-the-badge)
 ![Built With Svelte](https://img.shields.io/badge/Built%20With-svelte-red?style=for-the-badge)
 
-This is a prototype for the Ronald Reagan Computer Science Club (Est. 2021). Take a look at the prototype website [here](https://renaissancedog.github.io/rrcsclub/)!
+This is a redesigned website for the Ronald Reagan Computer Science Club (Est. 2021). Take a look at it [here](https://renaissancedog.github.io/rrcsclub/)!
 
 ## The Club
 We are a club located at Ronald Reagan High School, San Antonio and are dedicated to provide members resources to code and make amazing projects that will benefit the community. In essence, we want to introduce Computer Science to beginners and expand the horizons of those with some previous knowledge so that they can build their dream. We strongly believe that Computer Science is a creative endeavor that benefits the entire world in many ways, and this was only amplified during the Coronaivrus pandemic.
