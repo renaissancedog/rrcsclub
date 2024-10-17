@@ -10,7 +10,7 @@
 <title>Reagan HS Computer Science Club</title>
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain practical experience in Computer Science while having tons of fun!'/>
   <Navbar {base}/>
-  <section class="bg-white h-[70rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col text-center items-center justify-center w-screen bg-no-repeat">
+  <section class="font-mono bg-white h-[70rem] bg-cover bg-[url('/TopBg.svg')] flex flex-col text-center items-center justify-center w-screen bg-no-repeat">
     <h1 class="text-7xl h-32 mb-16 text-blue-800 uppercase top-0 justify-center"> Reagan CS Club </h1>
     <div class="text-4xl leading-normal text-gray-800">
       The club for <span class="rounded-lg text-pink-700 bg-pink-200 font-bold">creative coding,</span>
@@ -29,10 +29,10 @@
         </div>
       </div>
     </section>
-  <main class="bg-teal-900 w-screen flex flex-col justify-center items-center">
+  <main class="bg-teal-900 w-screen flex flex-col justify-center items-center font-mono">
     <section class="flex flex-col items-center justify-center">
       <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Who We Are</h1>
-      <p class="m-12 w-fit text-3xl text-white font-light">
+      <p class="m-12 w-fit text-2xl text-white font-light">
         We are a passionate community of coders, designers and explorers
         who like to learn by doing. The core philosophy of this club is
         building fun, real-world projects to learn coding. Coding is a
@@ -47,34 +47,34 @@
     </section>
     <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">What we do</h1>
     <section class="px-4 items-center justify-center w-screen">
-      <h1 class="text-white text-3xl text-center pb-8">Club Workshop Meetings</h1>
+      <h1 class="text-white text-2xl text-center pb-8">Club Workshop Meetings</h1>
       <section class="flex flex-col lg:flex-row items-center justify-around w-full">
         <div class="bg-white mt-2 rounded-xl lg:w-1/6">
-          <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Initiation</h2>
-          <p class='m-4 text-3xl'>
+          <h2 class='my-4 text-center text-2xl text-white bg-teal-700'>Initiation</h2>
+          <p class='m-4 text-2xl'>
             The Club leader guides everyone through a new topic. Everyone writes some code and understands the basics of the topic.
           </p>
         </div>
         <div class="bg-white mt-2 rounded-xl lg:w-1/6">
-          <h2 class='my-4 h-12 text-center text-3xl text-white bg-teal-700'>Creation</h2>
-          <p class='m-4 text-3xl'>
+          <h2 class='my-4 text-center text-2xl text-white bg-teal-700'>Creation</h2>
+          <p class='m-4 text-2xl'>
             Everyone starts creating, in teams or on their own on a project of their choice. The club officers guide everyone through projects.
           </p>
         </div>
         <div class="bg-white mt-2 rounded-xl lg:w-1/6">
-          <h2 class="my-4 h-12 text-center text-3xl text-white bg-teal-700">Demos</h2>
-          <p class='m-4 text-3xl'>
+          <h2 class="my-4 text-center text-2xl text-white bg-teal-700">Demos</h2>
+          <p class='m-4 text-2xl'>
             Anyone who wishes to can present what they built and inspire others to build similar fun projects.
           </p>
         </div>
       </section>
-      <p class="text-3xl pt-8 text-white font-light text-center pb-4">
+      <p class="text-2xl pt-8 text-white font-light text-center pb-4">
         Beginners are highly encouraged to attend these workshops to learn programming and new skills.
       </p>
     </section>
     <section class="drop-shadow-2xl flex flex-col items-center justify-center">
       <h1 class="text-center rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Beyond Meetings</h1>
-      <div class="mx-12 text-left w-fit text-3xl text-white font-light">
+      <div class="mx-12 text-left w-fit text-2xl text-white font-light">
         <p> Our club goes beyond simple meetings and we host a ton of fun events. Some events we are planning for this year include:</p>
         <ul class="list-disc">
           <li>2-day Hackathons</li>
@@ -89,7 +89,7 @@
     </section>
     <section class="drop-shadow-2xl flex flex-col items-center justify-center">
       <h1 class="rounded-2xl m-12 p-6 text-4xl text-teal-300 uppercase font-black bg-blue-700">Requirements</h1>
-      <p class="m-12 w-fit text-3xl text-white font-light">
+      <p class="m-12 w-fit text-2xl text-white font-light">
         In order to be eligible to join Reagan CS Club, you must be a
         student of Reagan High School in San Antonio, Texas, be
         in good standing with NEISD policies and government laws, and pay a $20 membership fee. Those

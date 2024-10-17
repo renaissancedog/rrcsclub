@@ -8,7 +8,7 @@
 <meta name='description' content='The home page for the Ronald Reagan High School Computer Science club. We are a club for creative coding and Computer Science exploration. Join us to gain practical experience in Computer Science while having tons of fun!'/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="bg-teal-900 flex flex-col justify-center items-center w-full">
+<div class="bg-teal-900 flex flex-col justify-center items-center w-full font-mono">
   <Navbar {base} />
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Our Team</h1>
   <p class="text-xl text-white text-center">Meet the folks responsible for running the club!</p>
