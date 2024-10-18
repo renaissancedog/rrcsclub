@@ -16,13 +16,13 @@
       authorName="William Liu" 
       projName="Reagan CS Club Website" 
       desc="The website of the Reagan High School Computer Science Club!" 
-      link="https://renaissancedog.github.io/rrcsclub/" 
+      link="https://renaissancedog.github.io/rrcsclub" 
     />
     <FameCard 
       authorName="Sarthak Dayal" 
       projName="Former Reagan CS Club Website" 
       desc="The former website of the Club." 
-      link="https://rr.hackclub.com/" 
+      link="https://rr.hackclub.com" 
     />
   </div>
 </div>
