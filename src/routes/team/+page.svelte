@@ -13,8 +13,9 @@
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Our Team</h1>
   <p class="text-xl text-white text-center">Meet the folks responsible for running the club!</p>
   <div class="flex flex-wrap justify-center w-full px-4">
-    <OfficerCard name="Alexis Tao" role="President" desc="Lorem ipsum dolor sit amet" img=""/>
-    <OfficerCard name="William Liu" role="Webmaster" desc="Hi! I made this website." img="william.png"/>
+    <OfficerCard first="Alexis" last="Tao" role="President" desc="Lorem ipsum dolor sit amet" img=""/>
+    <OfficerCard first="William" last="Liu" role="Webmaster" desc="William is a sophomore at Reagan High School.
+     In his free time, he likes to play violin, participate in math contests, and code." img="william.png"/>
   </div>
 </div>
 <div class="h-[50vh] lg:h-[90vh] bg-teal-900"></div>

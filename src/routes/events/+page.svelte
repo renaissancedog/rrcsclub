@@ -12,7 +12,7 @@
   <Navbar {base} />
   <h1 class='my-4 text-center text-4xl sm:text-5xl lg:text-7xl text-white'>Events</h1>
   <div class="flex flex-wrap justify-center w-full px-4">
-    <EventCard name="General Meeting" date="October 23" loc="RI244" desc="Join us for our second meeting of the year! We'll have snacks and a Halloween themed workshop." />
+    <EventCard name="General Meeting" date="October 23 after school" loc="RI244" desc="Join us for our second meeting of the year! We'll have snacks and a Halloween themed workshop." />
   </div>
 </div>
 <div class="h-[50vh] lg:h-[90vh] bg-teal-900"></div>
